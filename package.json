@@ -1,0 +1,15 @@
+{
+  "name": "scala-with-cats-slide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:YuMuuu/scala-with-cats-slide.git",
+  "author": "yu miura <curelemonade15@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "marp --html --server src/",
+    "build": "marp --html --pdf --allow-local-files --title 'scala with cats' src/slide.md -o dist/slide.pdf"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^1.1.1"
+  }
+}
